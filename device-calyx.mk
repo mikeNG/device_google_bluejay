@@ -16,6 +16,9 @@ TARGET_PREBUILT_KERNEL := device/google/bluejay-kernel/Image.lz4
 DEVICE_MANIFEST_FILE += \
     device/google/bluejay/manifest_radio.xml
 
+# Touch
+include hardware/google/pixel/touch/device.mk
+
 # Build necessary packages for vendor
 
 # Bluetooth
