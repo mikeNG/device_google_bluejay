@@ -9,4 +9,6 @@ $(call inherit-product, device/google/bluejay/aosp_bluejay.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := calyx_bluejay
 PRODUCT_MODEL := Pixel 6a
+PRODUCT_BRAND := google
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
