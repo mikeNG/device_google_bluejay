@@ -26,5 +26,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Keep this in sync with vendor/calyx -->
-    <string translatable="false" name="config_appsNotReportingCrashes">com.android.statementservice,com.google.euiccpixel</string>
+    <string translatable="false" name="config_appsNotReportingCrashes">com.android.statementservice,com.android.systemui,com.google.euiccpixel</string>
 </resources>
