@@ -6,6 +6,9 @@ PRODUCT_COPY_FILES += \
     device/google/bluejay/permissions/permissions_com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.google.android.euicc.xml \
     device/google/bluejay/permissions/permissions_com.google.euiccpixel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.google.euiccpixel.xml
 
+PRODUCT_PACKAGES += \
+    EuiccSupportPixelOverlay
+
 # For Google Camera
 PRODUCT_COPY_FILES += \
     device/google/bluejay/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
